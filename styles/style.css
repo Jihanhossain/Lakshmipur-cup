@@ -1,0 +1,117 @@
+body {
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+header {
+
+    background-color: black;
+    width: 1321px;
+    height: 649px;
+    margin: 50px;
+    margin-left: 450px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.h-2tag {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.p-tag {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.red-anchor {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 200px;
+
+}
+
+.possition {
+    margin-left: 600px;
+    height: 455px;
+    width: 730px;
+    margin-top: -110px;
+}
+
+.custom {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.button-bg {
+    background-color: red;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.card {
+    background: whitesmoke;
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 15px;
+
+
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+/* footer style------ */
+footer {
+    background-color: black;
+    padding-top: 40px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-content {
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.sosial {
+
+
+    text-align: center;
+}
+
+.sosial a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+@media(max-width: 800px) {}
+
+.row {
+    flex-direction: column;
+}
