@@ -110,8 +110,17 @@ footer {
 
 }
 
-@media(max-width: 800px) {}
-
-.row {
-    flex-direction: column;
+@media(min-width:500px) {
+    body {
+        color: blue;
+    }
 }
+
+@media (orientation: landscape),
+(max-width: 500px) {
+    .title {
+        color: green;
+    }
+}
+
+@media(orientation:portrait) {}
